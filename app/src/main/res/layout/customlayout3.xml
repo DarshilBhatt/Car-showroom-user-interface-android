@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/bg">
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="30dp"
+        android:text="TextView"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="26dp" />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/textView34"
+        android:layout_marginStart="150dp"
+        android:text="TextView"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="150dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/textView34"
+        android:layout_marginEnd="118dp"
+        app:srcCompat="@mipmap/ic_launcher"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="118dp" />
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="46dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/textView34"
+        android:layout_marginEnd="11dp"
+        android:text="TextView"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="11dp" />
+</RelativeLayout>
